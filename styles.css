@@ -2,6 +2,11 @@
     background-color: #1f2937;
 }
 
+body {
+    width: 60%;
+    margin: auto; 
+}
+
 /* SECTION ONE */
 
 .header {
@@ -13,10 +18,11 @@
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 15px;
 }
 
 .header-logo {
     height: 80px;
     width: auto;
-    margin-right: auto;
+    margin: 15px auto 15px 15px;
 }
