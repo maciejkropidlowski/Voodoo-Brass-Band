@@ -1,10 +1,22 @@
 .section-one, .footer {
-background-color: #1f2937;
+    background-color: #1f2937;
 }
 
 /* SECTION ONE */
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 .header-link {
     font-size: 18px;
-    color: #E5E7EB; 
+    color: #E5E7EB;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
+    margin-right: auto;
 }
