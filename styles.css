@@ -7,11 +7,14 @@ body {
     flex-direction: column;
 }
 
-.section-one, .footer {
-    background-color: #274877;
-}
-
 /* SECTION ONE */
+
+.section-one {
+    background-image: url("images-landing-page/background-navbar.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .navbar {
     display: flex;
@@ -23,7 +26,9 @@ body {
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 10px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 .logo {
