@@ -25,11 +25,15 @@ body {
 
 .header-link {
     font-size: 18px;
-    color: #E5E7EB;
     margin: 15px 20px 0px auto;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+}
+
+#navbar-link {
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
 }
 
 .logo {
@@ -37,11 +41,11 @@ body {
     background-size: cover;
     height: 50px;
     width: 50px;
-    margin-right: auto;
     padding: 15px;
 }
 
 .logo a {
     opacity: 0;
     padding: 10px;
+    margin-right: auto;
 }
