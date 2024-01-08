@@ -68,18 +68,52 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     color: blueviolet;
-    background-color: black;
+    text-shadow:
+        1px 1px 0 #ADFF2F,
+        -1px 1px 0 #ADFF2F,
+        -1px -1px 0 #ADFF2F,
+        1px -1px 0 #ADFF2F;
     text-align: center;
     border-radius: 8px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .hero-info p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: black;
+    border: 2px solid #ADFF2F;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 60px;
+    margin-right: 60px;
+    transition-duration: 0.4s;
+}
+
+.hero-button:hover {
+    background-color: white;
+    color: black;
 }
 
 .hero-card img {
     object-fit: fill;
     max-width: 500px;
     border-radius: 8px;
+    margin-right: 40px;
 }
