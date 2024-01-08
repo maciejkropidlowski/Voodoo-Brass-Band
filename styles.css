@@ -56,4 +56,30 @@ body {
 
 .hero-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero-content {
+    padding: 10px 100px 20px;
+}
+
+.hero-heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: blueviolet;
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero-info p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero-card img {
+    object-fit: fill;
+    max-width: 500px;
+    border-radius: 8px;
 }
