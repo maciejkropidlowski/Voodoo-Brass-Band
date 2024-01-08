@@ -10,11 +10,13 @@ body {
 /* SECTION ONE */
 
 .section-one {
-    background-image: url("images-landing-page/background-navbar.png");
+    background-image: url("images-landing-page/navbar-background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* NAVBAR */
 
 .navbar {
     display: flex;
@@ -48,4 +50,10 @@ body {
     opacity: 0;
     padding: 10px;
     margin-right: auto;
+}
+
+/* HERO PART */
+
+.hero-container {
+    display: flex;
 }
