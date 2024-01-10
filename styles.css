@@ -15,6 +15,8 @@ body {
 
 .section-one {
     background-image: url("images-landing-page/navbar-background.jpg");
+    background-color: #000;
+    background-blend-mode: hard-light;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,6 +120,7 @@ body {
 .hero-button:hover {
     background-color: black;
     color: #ADFF2F;
+    cursor: pointer;
 }
 
 .hero-card img {
@@ -125,6 +128,7 @@ body {
     max-width: 500px;
     border-radius: 8px;
     margin-right: 40px;
+    opacity: 0.8;
 }
 
 /* SOCIAL MEDIA PART */
@@ -148,10 +152,6 @@ h2 {
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-evenly;
-    padding: 0px;
-}
-
-.music-links {
     padding-top: 20px;
 }
 
