@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(132,63,182);
+    background-color: black;
 }
 
 body {
@@ -60,12 +60,12 @@ body {
 
 .hero-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: row nowrap;
+    justify-content: space-evenly;
 }
 
 .hero-content {
-    padding: 10px 100px 20px;
+    margin: 10px 100px 20px;
 }
 
 .hero-heading {
@@ -129,14 +129,30 @@ body {
 
 /* SOCIAL MEDIA PART */
 
+h2 {
+    color: white;
+    text-shadow:
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .social-icons, .music-links {
     display: flex;
     flex-direction: row nowrap;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 0px;
+}
+
+.music-links {
+    padding-top: 20px;
 }
 
 .fa-brands {
