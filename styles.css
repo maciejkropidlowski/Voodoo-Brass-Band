@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0 auto;
+    text-align: center;
 }
 
 .container {
@@ -62,7 +63,7 @@ body {
 
 .hero-container {
     display: flex;
-    flex-direction: row nowrap;
+    flex-direction: wrap;
     justify-content: space-evenly;
 }
 
@@ -148,11 +149,16 @@ h2 {
 .social-icons, .music-links {
     display: flex;
     flex-direction: row nowrap;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
     justify-content: space-evenly;
-    padding-top: 20px;
+}
+
+.music-links {
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .fa-brands {
@@ -163,4 +169,31 @@ h2 {
 
 .fa-brands:hover {
     color:#ADFF2F;
+}
+
+/*  QUOTATION */
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding-top: 20px 200px;
+}
+
+.quotation p, .quotation b {
+color: white;
+}
+
+.quotation p {
+    font-size: 30px;
+    padding: 0 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.quotation b {
+    text-align:right;
+    font-size: 30px;
+    margin-right: 150px;
+    margin-bottom: 30px;
 }
