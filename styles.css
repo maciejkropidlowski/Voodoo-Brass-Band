@@ -15,7 +15,7 @@ body {
 /* SECTION ONE */
 
 .section-one {
-    background-image: url("images-landing-page/navbar-background.jpg");
+    background-image: url("images-voodoo-landing/navbar-background.jpg");
     background-color: #000;
     background-blend-mode: hard-light;
     background-position: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .logo {
-    background-image: url("images-landing-page/voodoo-logo.png");
+    background-image: url("images-voodoo-landing/voodoo-logo.png");
     background-size: cover;
     height: 50px;
     width: 50px;
@@ -133,7 +133,7 @@ body {
     max-width: 500px;
     border-radius: 8px;
     margin-right: 40px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* SOCIAL MEDIA PART */
